@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(1, 16, 29, 0.89);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2.4;
+  color: white;
+
+}
+
+.nav-container {
+  width: 100%;
+  border-bottom: 0.5px solid rgb(78, 233, 212);
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container li a:hover {
+  background: linear-gradient(rgba(1, 16, 29, 0.89), rgb(78, 233, 212));
+  padding: 1rem 1.4rem;
+  border-radius: 2px;
+}
+
+.logo {
+  width: 50%;
+  padding-left: 3rem;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.nav-container ol {
+  display: flex;
+  list-style: none;
+  padding-top: 0.6rem;
+ 
+}
+
+.nav-container li {
+  padding: 0 0.6rem;
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: white;
+}
+
+.resume {
+  margin-right: 12rem;
+}
+
+.resume  {
+  padding: 1rem 1.4rem;
+  font-size: 1rem;
+  background: linear-gradient(rgba(1, 16, 29, 0.89), rgb(78, 233, 212));
+  color: white;
+  border: none;
+  border-radius: 1px;
+}
+
+.resume:hover {
+  background-color: rgba(1, 16, 29, 0.89);
+  color: rgb(78, 233, 212);
+  border: none;
+
+}
+
+.body-container {
+  padding-left: 12rem;
+  padding-top: 1.5rem;
+}
+
+.body-container h6{
+  padding-top: 1rem;
+  color: rgb(78, 233, 212);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body-container h1 {
+  font-size: 2.6rem;
+}
+
+.body-container h2 {
+  color: rgb(204, 206, 207);
+  font-size: 2.4rem;
+}
+
+.body-container p,
+.body-container h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.cta-button {
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: rgba(1, 16, 29, 0.89);
+  font-size: large;
+}
+
+.cta-button a {
+  text-decoration: none;
+  color: rgb(78, 233, 212);
+}
+
+.cta-button:hover {
+  background: linear-gradient(rgba(1, 16, 29, 0.89), rgb(78, 233, 212));
+  color: aliceblue;
+  transform: translateY(-5px);
+  cursor: grab;
+}
+
+.social-icons {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  padding-left: 12rem;
+}
+
+.social-icons a {
+  padding: 0 1rem;
+  color: rgb(78, 233, 212);
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: rgba(7, 53, 80, 0.89); 
+  transform: translateY(-5px);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  
+.logo {
+  padding-left: 2rem;
+}
+
+.body-container {
+  padding-left: 4rem; 
+}
+
+.body-container h6 {
+  padding-left: 4rem;
+}
+
+.body-container h2 {
+  font-size: 2rem;
+}
+
+  
+.social-icons {
+  font-size: 1.2rem;
+  padding-left: 4rem;
+}
+
+}
